@@ -21,9 +21,8 @@ gem 'puma', '~> 3.7'
 gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails'
 gem 'active_model_serializers', '~> 0.10.0'
-# gem 'omniauth'
-# gem 'omniauth-github'
 gem 'faraday'
+gem 'rack-cors'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
