@@ -1,22 +1,32 @@
-# README
+## Neos Fair
+Back-end for a React-Redux application inspired by craigslist and offerup. Place where people can buy and sell items. This applications implements security measures for authentication. Upon signing up user's account is charged with $1000.00 dollars. Allowing them to purchase items which are added to their past orders section for future review.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features and Technologies
+- React for component management and presentation logic
+- Redux for state management and asynchronous Javascript back-end API calls
+- CSS Modules
+- OmniAuth Github strategy (Login with GitHub)
+- Custom login and sign up flow system
+- Full CRUD support (Create, Retrieve, Update, Delete) with error handling
+- Ruby on Rails powered back-end API for database persistence
+- Stateless back-end API using JWT (Jason Web Token) authentication system
+- Each API end-point is guarded to only allow authenticated requests access data
+- All requests to the server utilize asynchronous Javascript fetch api with error handeling
+- PostgreSQL database
 
-Things you may want to cover:
+## Blog
 
-* Ruby version
 
-* System dependencies
+## Usage
+This application has been deployed to Heroku. You can find the live version at 
+Run npm install && npm start to install dependencies and start front end server.
 
-* Configuration
 
-* Database creation
+## Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/omikolaj/neos-fair-api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-* Database initialization
+## License
+This project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT)
 
-* How to run the test suite
+  
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
