@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::API
-  include ActionController::Cookies
   require 'json_web_token'  
 
   protected
