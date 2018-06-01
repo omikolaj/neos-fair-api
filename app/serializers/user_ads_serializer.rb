@@ -1,3 +1,3 @@
 class UserAdsSerializer < ActiveModel::Serializer
-  attributes :id, :title,
+  attributes :id, :title
 end
