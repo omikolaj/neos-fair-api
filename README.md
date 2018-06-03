@@ -15,7 +15,7 @@ Back-end for a React-Redux application inspired by craigslist and offerup. Place
 - PostgreSQL database
 
 ## Usage
-This application has been deployed to Heroku. You can find the live version at https://neos-fair.herokuapp.com/
+This application has been deployed to Heroku. You can find the live version at https://neos-fair.herokuapp.com
 Manual install:
   - Make sure you are running postgreSQL server locally
   - run rake db:create > rake db:migrate > rake db:seed
