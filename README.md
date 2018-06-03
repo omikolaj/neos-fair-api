@@ -14,14 +14,11 @@ Back-end for a React-Redux application inspired by craigslist and offerup. Place
 - All requests to the server utilize asynchronous Javascript fetch api with error handeling
 - PostgreSQL database
 
-## Blog
-
-
-
 ## Usage
-This application has been deployed to Heroku. You can find the live version at 
-Run npm install && npm start to install dependencies and start front end server.
-
+This application has been deployed to Heroku. You can find the live version at https://neos-fair.herokuapp.com/
+Manual install:
+  - Make sure you are running postgreSQL server locally
+  - run rake db:create > rake db:migrate > rake db:seed
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/omikolaj/neos-fair-api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
